@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+/* Customize Navbar Background */
+.navbar {
+    background-color: #343a40; /* Dark background */
+  }
+  
+  /* Customize Navbar Brand (logo) */
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: white; /* Change text color */
+  }
+  
+  .navbar-brand:hover {
+    color: #f8f9fa; /* Hover effect */
+  }
+  
+  /* Customize Navbar Links */
+  .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important; /* Gold color on hover */
+    text-decoration: none;
+  }
+  
+  /* Customize Dropdown */
+  .navbar .dropdown-menu {
+    background-color: #343a40;
+  }
+  
+  .navbar .dropdown-item {
+    color: white;
+  }
+  
+  .navbar .dropdown-item:hover {
+    background-color: #495057; /* Slightly lighter background on hover */
+  }
+  
+  /* Toggle Button (for small screens) */
+  .navbar-toggler {
+    border-color: white; /* Change toggle button border */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;base64,..."); /* Customize the icon if necessary */
+  }
+  
